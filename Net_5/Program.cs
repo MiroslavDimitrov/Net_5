@@ -6,8 +6,10 @@ namespace Net_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Miroslav!");
-            Console.Read();
+            string input;
+            Console.WriteLine("Pleace enter your name and press enter : ");
+            input = Console.ReadLine();
+            Console.WriteLine(input);
         }
     }
 }
